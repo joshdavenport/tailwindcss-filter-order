@@ -28,14 +28,16 @@ const generateFinalFilterValue = (filterOrder) => {
 module.exports = plugin(function ({ addUtilities, theme, matchUtilities }) {
   const filterOrder = theme('filterOrder');
 
-  // Add filter-order utilities based on theme config
-  Object.entries(filterOrder).forEach(([name, order]) => {
-    addUtilities({
-      [`.filter-order-${name}`]: {
-        filter: generateFinalFilterValue(order),
-      },
+  if (typeof filterOrder === 'object') {
+    // Add filter-order utilities based on theme config
+    Object.entries(filterOrder).forEach(([name, order]) => {
+      addUtilities({
+        [`.filter-order-${name}`]: {
+          filter: generateFinalFilterValue(order),
+        },
+      });
     });
-  });
+  }
 
   // Support arbitrary filter-order-* classes
   matchUtilities({
