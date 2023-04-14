@@ -1,0 +1,34 @@
+{
+  "name": "@joshdavenport/tailwindcss-filter-order",
+  "version": "0.1.0",
+  "description": "A plugin to customise the order Tailwind applies CSS filters.",
+  "keywords": [
+    "tailwind",
+    "tailwindcss",
+    "css",
+    "css filter",
+    "css filters",
+    "css filter order",
+    "css filters order"
+  ],
+  "license": "MIT",
+  "author": "Josh Davenport-Smith <josh@joshdavenport.co.uk>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshdavenport/tailwindcss-filter-order.git"
+  },
+  "bugs": "https://github.com/joshdavenport/tailwindcss-filter-order/issues",
+  "homepage": "https://github.com/joshdavenport/tailwindcss-filter-order#readme",
+  "main": "src/plugin.js",
+  "peerDependencies": {
+    "tailwindcss": "^3.0.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.7",
+    "prettier-plugin-tailwindcss": "^0.2.7",
+    "tailwindcss": "^3.3.1"
+  },
+  "engines": {
+    "node": ">=14.18.2"
+  }
+}
