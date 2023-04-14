@@ -1,6 +1,6 @@
 {
   "name": "@joshdavenport/tailwindcss-filter-order",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A plugin to customise the order Tailwind applies CSS filters.",
   "keywords": [
     "tailwind",
