@@ -8,13 +8,13 @@ time because Tailwind has a hardcoded order.
 
 ```
 # npm
-npm install --save-dev @savvywombat/tailwindcss-grid-areas
+npm install --save-dev @joshdavenport/tailwindcss-filter-order
 
 # yarn
-yarn add --dev @savvywombat/tailwindcss-grid-areas
+yarn add --dev @joshdavenport/tailwindcss-filter-order
 
 # pnpm
-pnpm install --save-dev @savvywombat/tailwindcss-grid-areas
+pnpm install --save-dev @joshdavenport/tailwindcss-filter-order
 ```
 
 ## Usage
